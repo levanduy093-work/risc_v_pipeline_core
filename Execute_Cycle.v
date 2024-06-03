@@ -1,7 +1,3 @@
-`include "ALU.v"
-`include "Mux.v"
-`include "PC_Adder.v"
-
 module execute_cycle(clk,rst,RegWriteE,ALUSrcE,MemWriteE,ResultSrcE,BranchE,ALUControlE,RD1_E,RD2_E,Imm_Ext_E,
     RD_E,PCE,PCPlus4E,PCSrcE,PCTargetE,RegWriteM,MemWriteM,ResultSrcM,RD_M,PCPlus4M,WriteDataM,ALU_ResultM);
 

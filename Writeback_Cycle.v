@@ -1,5 +1,3 @@
-`include "Mux.v"
-
 module writeback_cycle(clk,rst,ResultSrcW,ALU_ResultW,ReadDataW,PCPlus4W,ResultW);
 
     // Declaration input and output ports

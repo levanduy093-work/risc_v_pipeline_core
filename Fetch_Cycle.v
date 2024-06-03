@@ -1,8 +1,3 @@
-`include "PC.v"
-`include "Instruction_Memory.v"
-`include "PC_Adder.v"
-`include "Mux.v"
-
 module fetch_cycle(clk,rst,PCSrcE,PCTargetE,InstrD,PCD,PCPlus4D);
 
     // Declaring input and output ports
