@@ -51,9 +51,10 @@ module memory_cycle(clk,rst,RegWriteM,MemWriteM,ResultSrcM,RD_M,PCPlus4M,
     // Assigning the output ports
     assign RegWriteW = RegWriteM_r;
     assign ResultSrcW = ResultSrcM_r;
-    assign ALU_ResultW = ALU_ResultM_r;
-    assign ReadDataW = ReadDataM_r;
     assign RD_W = RD_M_r;
     assign PCPlus4W = PCPlus4M_r;
+    assign ALU_ResultW = ALU_ResultM_r;
+    assign ReadDataW = ReadDataM_r;
+
 
 endmodule
