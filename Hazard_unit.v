@@ -1,4 +1,4 @@
-module hazrad_unit(rst, RegWriteM, RegWriteW, RD_M, RD_W, Rs1_E, Rs2_E, ForwardAE, ForwardBE);
+module hazard_unit(rst, RegWriteM, RegWriteW, RD_M, RD_W, Rs1_E, Rs2_E, ForwardAE, ForwardBE);
 
     // declaration of input and output
     input rst, RegWriteM, RegWriteW;
